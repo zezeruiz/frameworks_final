@@ -21,6 +21,13 @@
 .social-iconos > li > a > i{
   margin: 0px 10px;
 }
+.logo-container {
+  width: 30%;
+}
+.logo-container > a > img {
+  width: 100%;
+}
+
 
 /*Artículos -contenido*/
 .blog-article > p {
@@ -77,8 +84,65 @@ form > .form-group > label {
     width: 100%;
   }
   .blog-article > img {
-    width: 70%;
-    margin: 2% 15%;
+    width: 80%;
+    margin: 2% 10%;
   }
-
+  .article-div > form > div > label {
+    display: none;
+  }.article-div > form > div > label > i {
+    display: none;
+  }
+  .article-div > form > .form-group > textarea {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  nav > ul[class*="menu-1"] {
+    display: block !important;
+  }
+  .sidebar {
+    display: none;
+  }
+  .logo-container {
+    width: 100%;
+    display: flex;
+  }
+  .logo-container > a {
+    display: flex;
+  }
+  .logo-container > a > img {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .iconos {
+    width: 100%;
+    display: flex;
+  }
+  .iconos > ul {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sidebar {
+    display: none;
+  }
+  .logo-container {
+    width: 100%;
+    display: flex;
+  }
+  .logo-container > a {
+    display: flex;
+  }
+  .logo-container > a > img {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .iconos {
+    width: 100%;
+    display: flex;
+  }
+  .iconos > ul {
+    margin: 0 auto;
+  }
 }
