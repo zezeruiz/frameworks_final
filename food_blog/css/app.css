@@ -1,0 +1,90 @@
+/*General*/
+body {
+  background-image: url("../img/ceviche.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor-principal {
+  background-color: rgba(215, 215, 215, 0.65);
+  padding: 5px 20px;
+}
+/*Sidebar*/
+.sidebar {
+  background-color: rgb(96, 126, 230);
+  padding-top: 10px;
+  border-radius: 4px;
+  color: white;
+}
+.sidebar > .row {
+  padding: 5px 20px;
+}
+/*Vertical-menu*/
+.row > ul[class*="vertical"] > li {
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  border: 1px solid #258DAD;
+  margin-bottom: 1px;
+}
+.row > ul[class*="vertical"] > li:hover {
+  background-color: #e6e6e6;
+  cursor:pointer;
+}
+
+/*Historial*/
+.list-group {
+  margin-bottom: 1rem;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+  margin-left: 0;
+  background-color: #f9f9f9;
+}
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+.list-group-item {
+  padding: 1rem;
+}
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+  cursor:pointer;
+}
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
+}
+/*Entradas*/
+.blog-principal {
+  padding-right: 0;
+}
+.blog-principal > div {
+  background-color: rgb(236, 68, 89);
+  padding-top: 10px;
+  border-radius: 4px;
+}
+.blog-principal > div > form > textarea {
+  margin-bottom: 4px;
+  resize: none;
+}
+.blog-principal > div > form > .comentario-btn {
+  width: 17%;
+  margin-left: 83%;
+}
+
+}
