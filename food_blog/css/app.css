@@ -77,7 +77,12 @@ body {
   background-color: rgb(236, 68, 89);
   padding-top: 10px;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
+.blog-principal > div > article > img {
+  margin-bottom: 10px;
+}
+/*Commnet section*/
 .blog-principal > div > form > textarea {
   margin-bottom: 4px;
   resize: none;
@@ -86,5 +91,29 @@ body {
   width: 17%;
   margin-left: 83%;
 }
+.comentarios {
+  display: flex;
+  background-color: rgba(193, 190, 190, 0.55);
+  padding-top: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.comentarios > .user-info {
+  width: 20%;
+}
+.comentarios > .user-info > img {
+  width: 70px;
+  height: 70px;
+  margin-left: 15px;
+}
+.comentarios > .user-info > p {
+  width: 65%;
+  margin-left: 10px;
+  text-align: center;
+}
 
+.comentarios > .comment-content {
+  width: 80%;
+  text-align: justify;
+  padding-right: 15px;
 }
