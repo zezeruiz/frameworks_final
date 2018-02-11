@@ -1,0 +1,117 @@
+/*Generales*/
+body {
+  background-image: url("../img/fondo.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.margen-izquierda {
+  margin-left: 8.3333333333%;
+}
+/*Header*/
+.slogan {
+  clear: right;
+  margin: 0;
+  padding-top: 30px;
+}
+.logo {
+  margin-top: 40px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+/*Social*/
+.vertical-list-social {
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 4.5%;
+  margin-top: 20px;
+  position: fixed;
+}
+.vertical-list-social > li {
+  margin: 15px auto;
+}
+/*Gallery*/
+.gallery > img {
+  width: 100%;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+/*Blog*/
+.blog-content {
+  border-radius: 4px;
+  text-align:justify;
+  padding: 0px 20px !important;
+}
+.blog-content>img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.blog-content>h3 {
+  margin-bottom: 0px;
+}
+/*author*/
+.author {
+  text-align: center;
+  border-radius: 4px;
+  padding: 0px 20px !important;
+}
+.author>img{
+  width: 50%;
+  margin: 0% 25%;
+}
+.author > p::first-letter{
+  font-size: 24px;
+}
+/*Comentarios*/
+.comment-section {
+  margin: 20px 0px;
+  border-radius: 4px;
+  color: white;
+}
+.input-field > label {
+  color: white;
+}
+.input-field .prefix.active {
+  color: rgb(226, 226, 226);
+}
+.input-field .btn {
+  background-color: #f9f9f9;
+  color: black;
+  float: right;
+}
+/*responsive*/
+@media screen and (max-width:480px) {
+  .nav-extended > .nav-wrapper >img {
+    display: none;
+  }
+  .nav-extended > .nav-wrapper > h4 {
+    clear: both;
+  }
+  .vertical-list-social {
+    display: none;
+  }
+  .blog-content > img {
+    width: 100%;
+  }
+}
+@media screen and (min-width:481px) and (max-width:690px) {
+  .nav-extended > .nav-wrapper >img {
+    display: none;
+  }
+  .nav-extended > .nav-wrapper > h4 {
+    clear: both;
+  }
+  .vertical-list-social {
+    display: none;
+  }
+}
+
+@media screen and (min-width:691px) and (max-width:1000px) {
+  .vertical-list-social {
+    display: none;
+}

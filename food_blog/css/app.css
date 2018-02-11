@@ -88,10 +88,10 @@ body {
   resize: none;
 }
 .blog-principal > div > form > .comentario-btn {
-  width: 17%;
-  margin-left: 83%;
+  float: right;
 }
 .comentarios {
+  clear: both;
   display: flex;
   background-color: rgba(193, 190, 190, 0.55);
   padding-top: 20px;
@@ -132,8 +132,7 @@ body {
     padding: 0;
   }
   .blog-principal > div > form > .comentario-btn {
-    margin-left: 65%;
-    width: 35%;
+    float: right;
   }
   .blog-principal > div > .comentarios {
     display: block;
@@ -160,8 +159,7 @@ body {
     padding: 5px 20px;
   }
   .blog-principal > div > form > .comentario-btn {
-    margin-left: 70%;
-    width: 30%;
+    float: right;
   }
   .favoritos, .historial {
     display: none;
@@ -189,6 +187,5 @@ body {
     padding: 5px 20px;
   }
   .blog-principal > div > form > .comentario-btn {
-    margin-left: 70%;
-    width: 30%;
+    float: right;
   }
