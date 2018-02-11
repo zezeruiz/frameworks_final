@@ -117,3 +117,78 @@ body {
   text-align: justify;
   padding-right: 15px;
 }
+/*Media queries*/
+@media screen and (max-width:480px) {
+  .favoritos, .historial {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .blog-principal {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .blog-principal > div > form > .comentario-btn {
+    margin-left: 65%;
+    width: 35%;
+  }
+  .blog-principal > div > .comentarios {
+    display: block;
+  }
+  .blog-principal > div > .comentarios > .user-info {
+    width: 100%;
+    display: flex;
+  }
+  .blog-principal > div > .comentarios > .comment-content {
+    width: 100%;
+    padding: 5px 20px;
+  }
+}
+@media screen and (min-width:481px) and (max-width:640px) {
+  .blog-principal > div > .comentarios {
+    display: block;
+  }
+  .blog-principal > div > .comentarios > .user-info {
+    width: 100%;
+    display: flex;
+  }
+  .blog-principal > div > .comentarios > .comment-content {
+    width: 100%;
+    padding: 5px 20px;
+  }
+  .blog-principal > div > form > .comentario-btn {
+    margin-left: 70%;
+    width: 30%;
+  }
+  .favoritos, .historial {
+    display: none;
+  }
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .blog-principal {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-width:641px) and (max-width:750px) {
+  .blog-principal > div > .comentarios {
+    display: block;
+  }
+  .blog-principal > div > .comentarios > .user-info {
+    width: 100%;
+    display: flex;
+  }
+  .blog-principal > div > .comentarios > .comment-content {
+    width: 100%;
+    padding: 5px 20px;
+  }
+  .blog-principal > div > form > .comentario-btn {
+    margin-left: 70%;
+    width: 30%;
+  }
